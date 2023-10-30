@@ -10,15 +10,38 @@
 	</section>
 	  
 	 <section class="right">
-		 <form>
-			 <input type="text" id="email" placeholder="Email address or phone number">
-			 <input type="password" id="password" placeholder="Password">
-			 <button type="submit">Log in</button>
-			 <a>Forgotten account?</a>
-			 <button type="submit" class="signup">Create new account</button>
-			 
-			 
-		 </form>
-	 </section> 
+    <form class="form" style="
+          background-color: white;
+          display: flex;
+          width: 300px;
+          background-color: white;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 0 10px #ccc;
+          flex-direction: column;
+          gap: 10px;
+        ">
+      <input style="border: 1px solid #ccc; border-radius: 5px; padding: 10px" type="text" id="email"
+        placeholder="Email address or phone number" />
+      <input style="border: 1px solid #ccc; border-radius: 5px; padding: 10px" type="password" id="password"
+        placeholder="Password" />
+      <button style="
+            background-color: #1877f2;
+            border-radius: 5px;
+            padding: 10px 20px;
+          " class="login" type="submit">
+        Log in
+      </button>
+      <a href="#" style="text-decoration: none; color: #1877f2">Forgotten account?</a>
+
+      <button style="
+            background-color: #42b72a;
+            border-radius: 5px;
+            padding: 10px 20px;
+          " class="signup">
+        Create new account
+      </button>
+    </form>
+  </section>
   </body>
 </html>
