@@ -1,59 +1,54 @@
 /*  your css code here. If applicable */
 body{
-	background-color:rgb(255,255,255);
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	height:100vh;
+	background-color:#f6f6f6;
+	
 }
-.right{
-	margin-top:10px;
-}
+
 .left{
 	width:450px;
 	margin-top:70px;
 	display:inline-block;
 }
-.form{
-	dispaly:flex;
+
+form{
+	display:flex;
 	width:300px;
-	height:240px;
-	margin-inline:10px;
 	background-color:white;
+	flex-direction:column;
 	padding:20px;
 	border-radius:5px;
+	gap:10px;
 	box-shadow:0 0 10px #ccc;
-	flex-direction:column;
-	gap:10px;
 }
-input{
-	border:1px solid #ccc;
-	border-radius:5px;
+
+form>input{
 	padding:10px;
-	gap:10px;
-	width:40vh;
-	padding-top:10px;
+	border-radius:5px;
+	border:1px solid #ccc;
+	
 }
-.btn{
+
+#login{
 	background-color:#1877f2;
 	border-radius:5px;
 	padding:10px 20px;
+	border:none;
 	color:white;
-	width:43vh;
-	text-decoration:none;
-	padding-top:10px;
 }
-a{
-	text-decoration:none;
+form #a{
 	color:#1877f2;
-	padding-top:10px;
-}
-.signup{
-	background-color:green;
-	color:white;
-	border-radius:5px;
-	width:43vh;
-    padding:10px 20px;
 	text-decoration:none;
-	padding-top:10px;
+}
+
+#sign>button{
+	background-color:#42b72a;
+	padding:10px;
+	border-radius:5px;
+	width:300px;
+	border:none;
+	color:white;
 }
